@@ -8,14 +8,12 @@ xlabel('x position');
 ylabel('y position');
 grid on;
 
-
-
 pos_x = 0;
 pos_y = 0;
 x = zeros(1, n);
 y = zeros(1, n);
-% For walk step 1 to n max step
-for j = 1:n
+% For walk step 2 to n max step
+for j = 2:n
   if rand() > 0.5
     if rand() > 0.5
     	pos_x = pos_x + dpos;
